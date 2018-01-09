@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TodosApp from '@/components/TodosAbb'
+import TodosApp from '@/components/TodosApp'
 
 export default {
   name: 'app',

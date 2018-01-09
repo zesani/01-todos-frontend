@@ -1,5 +1,7 @@
 # 01-todos-frontend
 
+![Todos](https://raw.githubusercontent.com/AdvWebDevelopment/01-todos-frontend/master/static/todos.png)
+
 > Todos Application
 * [vuex](https://vuex.vuejs.org/en/)
 * [buefy](https://buefy.github.io)
