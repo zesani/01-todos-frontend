@@ -28,20 +28,17 @@
             
             <b-field class="is-pulled-right">
               <b-radio-button v-model="radioButton"
-                native-value="Nop"
-                type="is-success">
+                native-value="all">
                 <span>All</span>
               </b-radio-button>
 
               <b-radio-button v-model="radioButton"
-                native-value="Yep"
-                type="is-success">
+                native-value="active">
                 <span>Active</span>
               </b-radio-button>
 
               <b-radio-button v-model="radioButton"
-                native-value="Yep"
-                type="is-success">
+                native-value="completed">
                 <span>Completed</span>
               </b-radio-button>
             </b-field>
