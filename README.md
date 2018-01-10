@@ -3,10 +3,10 @@
 ![Todos](https://raw.githubusercontent.com/AdvWebDevelopment/01-todos-frontend/master/static/todos.png)
 
 > Todos Application
-ในโปรเจคนี้ได้ติดตั้ง Library พื้นฐานเหล่านี้มาไว้ให้แล้ว สามารถคลิกเข้าไปศึกษาเพิ่มเติมได้เลย
-* [vuex](https://vuex.vuejs.org/en/)
-* [buefy](https://buefy.github.io)
-* [bulma](https://bulma.io)
+ในโปรเจคนี้มีการใช้งานและได้ติดตั้ง Library พื้นฐานเหล่านี้มาไว้ให้แล้ว สามารถคลิกเข้าไปศึกษาเพิ่มเติมได้เลย
+* [Vuex](https://vuex.vuejs.org/en/) is a state management pattern + library for Vue.js applications.
+* [Buefy](https://buefy.github.io) is a Lightweight UI components for Vue.js based on Bulma
+* [Bulma](https://bulma.io) is a free and open source CSS framework based on Flexbox.
 
 ## Build Setup
 
