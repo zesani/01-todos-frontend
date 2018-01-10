@@ -47,3 +47,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 * [ ] Challenge 6
 * [ ] Challenge 7
 * [ ] Challenge 8
+
+ถ้ามีข้อสงสัยหรือติดปัญหาสามารถเปิด Issue ขึ้นมาใหม่ได้เลย
