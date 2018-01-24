@@ -5,11 +5,9 @@ import App from './App'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
 import { store } from './store'
-
 Vue.use(Buefy)
 
 Vue.config.productionTip = true
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
