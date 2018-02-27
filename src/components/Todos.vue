@@ -1,11 +1,5 @@
 <template>
   <div>
-    <ul>
-      <li v-for="(todo, index) in todos" :key="todo">
-          {{ todo }}
-      </li>
-    </ul>
-
   <div id="test">
      <div class="handle" v-for="(todo, index) in todos" :key="todo">
       <b-field class="is-pulled-left"  >
@@ -33,17 +27,13 @@ export default {
   methods: {
     ...mapActions(['changeTodoComputed', 'sortTo']),
     onUpdate: function (event) {
-      console.log('ss', event)
       this.sortTo({ newIndex: event.newIndex, oldIndex: event.oldIndex })
     }
   },
   watch: {
     todos: {
       handler (val) {
-        console.log(val)
         localStorage.setItem('todos', JSON.stringify(val))
-        var cat = localStorage.getItem('todos')
-        console.log(cat)
       },
       deep: true
     }
